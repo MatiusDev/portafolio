@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const inputEmail = document.getElementById('email').value;
         const inputMessage = document.getElementById('message').value;
             
-        //await sendEmail(inputName, inputEmail, inputMessage);
+        await sendEmail(inputName, inputEmail, inputMessage);
         cleanContactForm();
         closeContactForm();
     }
