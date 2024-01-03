@@ -84,16 +84,14 @@ document.addEventListener('DOMContentLoaded', function () {
             });
             
             if (!response.ok) {
-                console.log('Hubo un error al enviar la petición.');
-                return;
+                throw new Error('Hubo un error al enviar la petición.');
             }
 
             const data = await response.json();
             const { status, error } = data;
 
             if (status === 'fail') {
-                console.log(`Error: ${error}`)
-                return;
+                throw new Error(`Error: ${error}`);
             }
 
             console.log('El mensaje ha sido enviado correctamente, gracias por su interés.');
