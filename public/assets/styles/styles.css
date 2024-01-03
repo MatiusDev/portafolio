@@ -243,7 +243,7 @@ a {
     width: 100%;
     padding-top: 70px;
     position: relative;
-    background-color: #000000;
+    background-color: #020506;
 }
 
 .about__container {
@@ -253,8 +253,8 @@ a {
     display: flex;
     align-items: center;
     background: #172b33;
-    background: linear-gradient(to right, #000000 45%, #172b33 60%, #1d3640);
-    box-shadow: inset 0px -5px 10px #000000;
+    background: linear-gradient(to right, #020506 45%, #172b33 60%, #1d3640);
+    box-shadow: inset 0px -5px 10px #020506;
 }
 
 .about__image {
@@ -404,7 +404,7 @@ a {
 @media screen and (max-width: 960px) {
     .about__container {
         flex-direction: column;
-        background: linear-gradient(to bottom, #000000 35%, #172b33 75%, #1d3640)
+        background: linear-gradient(to bottom, #020506 35%, #172b33 75%, #1d3640)
     }
 
     .about__image,
@@ -442,9 +442,9 @@ a {
     position: relative;
     /* background-color: #000b3e; */
     /* background-color: #00051f; */
-    background: linear-gradient(20deg, #000c46 50%, #000000 50%);
-    background: linear-gradient(20deg, #356b9b 50%, #000000 50%);
-    background: linear-gradient(20deg, #213e4a 50%, #000000 50%);
+    background: linear-gradient(20deg, #000c46 50%, #020506 50%);
+    background: linear-gradient(20deg, #356b9b 50%, #020506 50%);
+    background: linear-gradient(20deg, #213e4a 50%, #020506 50%);
 }
 
 .devs__container {
@@ -553,7 +553,7 @@ a {
     width: 100%;
     min-height: 100vh;
     position: relative;
-    background: linear-gradient(to bottom, #213e4a 38%, #000000 38%);
+    background: linear-gradient(to bottom, #213e4a 38%, #020506 38%);
 }
 
 .contact__container {
@@ -592,7 +592,7 @@ a {
 
 .contact__btnMenu:hover {
     background-color: #ffffff;
-    color: #000000;
+    color: #020506;
 }
 
 .contact__content {
@@ -640,7 +640,7 @@ a {
 }
 
 .contact__icons a:hover i {
-    color: #000000;
+    color: #020506;
     background-color: #ffffff;
 }
 
