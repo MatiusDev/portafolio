@@ -764,7 +764,7 @@ a {
     padding: 10px 15px;
 }
 
-#btnSubmit-contact {
+#btnSubmit__contact {
     grid-column: 1 / 2 span;
     width: 25%;
     margin: 0 auto;
@@ -781,7 +781,7 @@ a {
     cursor: pointer;
 }
 
-#btnSubmit-contact:hover {
+#btnSubmit__contact:hover {
     background-color: #2c5364;
 }
 
